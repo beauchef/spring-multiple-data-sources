@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/multi1
+    username: postgres
+    password: postgres
+multi:
+  database:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    urls:
+      - jdbc:postgresql://localhost/multi1
+      - jdbc:postgresql://localhost/multi2
+
